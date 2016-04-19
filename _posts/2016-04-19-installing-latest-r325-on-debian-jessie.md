@@ -23,7 +23,7 @@ sudo apt-get update
 sudo apt-get install r-base r-base-dev
 ```
 
-Installing [h2o](h2o.ai):
+Installing [h2o](http://www.h2o.ai/):
 
 ```bash
 # to retrieve curl-config

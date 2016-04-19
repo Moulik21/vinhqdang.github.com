@@ -2,8 +2,8 @@
 layout: post
 title: "Installing latest R(3.2.5) on Debian Jessie"
 description: ""
-category: 
-tags: []
+category: tutorial
+tags: [r,programming,debian,linux,ubuntu]
 ---
 {% include JB/setup %}
 

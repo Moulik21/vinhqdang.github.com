@@ -16,3 +16,13 @@ Just follow these steps:
 3. Use ``![caption](image_url)`` for displaying an image
 
 ![Professor Cat](https://s14.postimg.org/mx8phiqoh/professor_cat_is_available.jpg)
+
+4. If you want to centralize the image, add
+
+```
+<p align="center">
+  <img />
+</p>
+```
+
+at the beginning of the post.

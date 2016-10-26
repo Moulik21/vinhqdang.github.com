@@ -23,7 +23,30 @@ sudo apt-get update
 sudo apt-get install r-base r-base-dev
 ```
 
-Installing [h2o](http://www.h2o.ai/):
+**Installing [h2o](http://www.h2o.ai/):**
+
+You probably need Java
+
+```bash
+# install OpenJDK 8
+sudo sh -c 'echo "deb http://ftp.de.debian.org/debian jessie-backports main" >> /etc/apt/sources.list'
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+```
+or
+
+```bash
+# install Oracle JDK 8
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+# or make sure that JDK 8 is default
+sudo apt-get install oracle-java8-set-default
+# or not
+sudo apt-get install --no-install-recommends oracle-java8-installer
+```
+
+Now:
 
 ```bash
 # to retrieve curl-config
@@ -32,5 +55,6 @@ sudo apt-get install libcurl4-gnutls-dev
 ```
 
 ```R
+# in R
 install.packages ("h2o")
 ```

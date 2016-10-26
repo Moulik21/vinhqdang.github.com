@@ -2,7 +2,6 @@
 layout: post
 title: "Publishing PDF with Jekyll"
 description: ""
-layout: pdf
 category: tutorial
 tags: [trick,usage,jekyll]
 ---

@@ -2,12 +2,13 @@
 layout: post
 title: "Publishing PDF with Jekyll"
 description: ""
-category: 
-tags: []
+layout:pdf
+category: tutorial
+tags: [trick,usage,jekyll]
 ---
 {% include JB/setup %}
 
-I followed [the tutorial](https://pdfobject.com/static.html)
+I followed [the tutorial](http://jamesonzimmer.com/simple-pdf-embed-for-jekyll/)
 
 ## Using iframe
 
@@ -17,4 +18,4 @@ This browser does not support PDFs. Please download the PDF to view it: <a href=
 
 ## Using embed
 
-<embed src="/pdf/brain_in_a_vat.pdf" type="application/pdf" width="100%" height=1000px>
+<embed src="/pdf/brain_in_a_vat.pdf" type="application/pdf" width="100%" height="100%">

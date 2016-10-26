@@ -12,7 +12,7 @@ I followed [the tutorial](http://jamesonzimmer.com/simple-pdf-embed-for-jekyll/)
 
 ## Using iframe
 
-<iframe src="/pdf/brain_in_a_vat.pdf" width="100%" height="50em">
+<iframe src="/pdf/brain_in_a_vat.pdf" width="100%" height="100em">
 This browser does not support PDFs. Please download the PDF to view it: <a href="/pdf/brain_in_a_vat.pdf">Download PDF</a>
 </iframe>
 

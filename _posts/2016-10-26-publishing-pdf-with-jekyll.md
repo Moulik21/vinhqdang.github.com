@@ -7,7 +7,7 @@ tags: [trick,usage,jekyll]
 ---
 {% include JB/setup %}
 
-I followed [the tutorial](http://jamesonzimmer.com/simple-pdf-embed-for-jekyll/) but instead of using *height="100%"*, I used *height="50em"*.
+I followed [the tutorial](http://jamesonzimmer.com/simple-pdf-embed-for-jekyll/) but instead of using *height="100%"*, I used *height="800em"*.
 
 ## Using iframe
 

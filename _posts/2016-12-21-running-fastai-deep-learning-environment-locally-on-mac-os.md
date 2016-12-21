@@ -24,6 +24,13 @@ conda create --name fastai python
 source activate fastai
 ```
 
+- Install [theano](http://deeplearning.net/software/theano/) and [keras](https://keras.io/)
+
+```{bash}
+pip install Theano
+pip install keras
+```
+
 - Install [skicit-learn](http://scikit-learn.org/)
 
 ```{bash}
@@ -40,4 +47,10 @@ conda install -c https://conda.binstar.org/menpo opencv3
 
 ```{bash}
 pip install jupyter
+```
+
+- To run [course's notebooks](https://github.com/fastai/courses)
+
+```{bash}
+jupyter notebook
 ```
